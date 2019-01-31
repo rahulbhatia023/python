@@ -13,8 +13,9 @@ print(8 / 4)
 print(5 / 2)
 # 2.5
 
-print(
-    5 // 2)  # Floor Division (also called Integer Division) : Quotient when a is divided by b, rounded to the next smallest whole number
+print(5 // 2)
+# Floor Division (also called Integer Division) : Quotient when a is divided by b, rounded to the next smallest whole
+# number
 # 2
 
 print(8 + 9 - 10)
