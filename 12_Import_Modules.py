@@ -10,4 +10,3 @@ print(m.sqrt(25))
 # from math import *
 
 # from math import ceil as c, floor as f
-
