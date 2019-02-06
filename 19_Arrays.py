@@ -57,3 +57,28 @@ newVals = array(vals.typecode, (a for a in vals))
 
 for i in newVals:
     print(i)
+
+# Take array elements from user
+
+arr = array('i', [])
+
+length = int(input('Enter the length of array: '))
+for i in range(length):
+    val = int(input('Enter the value: '))
+    arr.append(val)
+
+print(arr)
+
+# Search for element in array
+vals = array('i', [1, 2, 3, 4, 5])
+element = int(input('Enter element to search: '))
+
+i = 0
+while i < len(arr):
+    if arr[i] == element:
+        print(i)
+        break
+    i = i + 1
+
+element = int(input('Enter element to search: '))
+print(vals.index(element))
