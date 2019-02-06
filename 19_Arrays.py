@@ -9,7 +9,7 @@ vals = array('i', [1, 2, 3, 4, 5])
 # Here, we created an array of int type. The letter 'i' is a type code. This determines the type of the array during
 # creation.
 
-# Type code	C Type	        Python Type	        Minimum size in bytes
+# Type code	    C Type	        Python Type	        Minimum size in bytes
 # 'b'	        signed char	    int	                1
 # 'B'	        unsigned char	int	                1
 # 'u'	        Py_UNICODE	    Unicode character	2
