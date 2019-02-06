@@ -70,6 +70,7 @@ for i in range(length):
 print(arr)
 
 # Search for element in array
+# Method-1
 vals = array('i', [1, 2, 3, 4, 5])
 element = int(input('Enter element to search: '))
 
@@ -80,5 +81,6 @@ while i < len(arr):
         break
     i = i + 1
 
+# Method-2
 element = int(input('Enter element to search: '))
 print(vals.index(element))
