@@ -41,22 +41,31 @@ print(vals[0])
 # We use indices to access elements of an array
 # 5
 
+#########################################################
+
 for i in vals:
     print(i)
 
 for i in range(len(vals)):
     print(vals[i])
 
+#########################################################
+
 vals = array('u', ['a', 'e', 'i', 'o', 'u'])
 
 for i in vals:
     print(i)
 
-newVals = array(vals.typecode, (a for a in vals))
+#########################################################
+
 # Copy the values from vals array to newVals array
+
+newVals = array(vals.typecode, (a for a in vals))
 
 for i in newVals:
     print(i)
+
+#########################################################
 
 # Take array elements from user
 
@@ -68,6 +77,8 @@ for i in range(length):
     arr.append(val)
 
 print(arr)
+
+#########################################################
 
 # Search for element in array
 # Method-1
